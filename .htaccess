@@ -1,0 +1,6 @@
+Order allow,deny
+Allow from all
+
+<FilesMatch "^(config\.php|dataHandler\.php|ipHandler\.php|\.gitignore)$">
+    Deny from all
+</FilesMatch>

@@ -1,0 +1,5 @@
+# Call PHP function to generate a hash wich should be stored in config.php
+echo password_hash('newpassword', PASSWORD_DEFAULT); 
+
+# Call JS from your website 
+fetch('/vstr-lggr/logger.php'); // relative to domain root

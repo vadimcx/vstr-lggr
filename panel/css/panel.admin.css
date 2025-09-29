@@ -1,0 +1,77 @@
+body {
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Roboto', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+button.button {
+  padding: 0.3rem 0.6rem;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+a.button.error {
+  padding: 0.3rem 0.6rem;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.form-row {
+  display: flex;
+  justify-content: center; /* zentriert innerhalb des Containers */
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: nowrap;
+  margin-bottom: 2rem;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-row label {
+  margin: 0 0.25rem;
+  white-space: nowrap;
+}
+
+.form-row input[type="date"] {
+  width: 15rem;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0.25rem 0.5rem;
+}
+
+#results {
+  font-family: monospace;
+  font-size: 1rem;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+#results table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#results th,
+#results td {
+  border: 1px solid #ccc;
+  padding: 8px 10px;
+  font-size: 1rem;
+  text-align: left;
+}
+
+#results th {
+  background: #eee;
+}
+
+.flag-emoji,
+td:has(.flag-emoji),
+td.flag {
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", "Twemoji Mozilla", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+  .hide {
+    display: none !important;
+  }
