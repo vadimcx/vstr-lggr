@@ -2,7 +2,6 @@
 
 A minimalistic visitor logging tool for tracking website visits.  
 It provides a simple web interface to review visits, filter by time range, and inspect visited subpages.  
-The project is intentionally lightweight and rudimentary.
 
 ---
 
