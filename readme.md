@@ -3,7 +3,6 @@
 A minimalistic visitor logging tool for tracking website visits.  
 It provides a simple web interface to review visits, filter by time range, and inspect visited subpages.  
 
----
 
 ## Features
 
@@ -11,20 +10,17 @@ It provides a simple web interface to review visits, filter by time range, and i
 - View detailed visit data (IP, ISP, user agent, visited URL, etc.)  
 - Filter visits by selected time ranges  
 - web interface 
----
 
 ## Preview
 
 ![Screenshot web interface](https://raw.githubusercontent.com/vadimcx/vstr-lggr/refs/heads/main/msc/imgs/Screenshot.png)
 
----
 
 ## Requirements
 
 - PHP 7+ capable server  
 - MySQL / MariaDB database  
 
----
 
 ## Deployment
 
@@ -61,8 +57,6 @@ It provides a simple web interface to review visits, filter by time range, and i
    <script src="logger.js"></script>
    ```
 
----
-
 ## Usage
 
 - Access the web interface at:  
@@ -72,10 +66,8 @@ It provides a simple web interface to review visits, filter by time range, and i
 
 - Automatic logout after **5 minutes** of inactivity  
 
----
 
 ## Other
 
 - [Chota.css](https://github.com/jenil/chota) was used for the frontend styling.  
 
----
